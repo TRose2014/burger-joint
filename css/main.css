@@ -1,0 +1,100 @@
+									/*****GRID*****/
+
+.full-width {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.half-width {
+	float: left;
+}
+
+.third-width {
+	width: 300px;
+	margin: 0 auto;
+	float: left;
+}
+
+body {
+	font-family:'Bitter', serif;
+	font-size: 20px;
+	background-color:antiquewhite;
+}
+
+
+									/******Header*****/
+
+ header h1 {
+	text-transform: uppercase;
+	color:crimson;
+	padding-left:20px;
+	margin-top:230px;
+	padding-top:0px;
+	
+}
+
+h2{
+	text-align:center;
+}
+
+#nav{
+	float: right;
+}
+	
+
+nav {
+	float: right;
+	width:130%;
+	word-spacing:20px;
+	
+}
+
+nav ul {
+
+}
+
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 36px;
+	color: limegreen;
+	padding-left: 20px;
+	border-bottom-style:double;
+}
+
+header {
+	background-image: url("https://static.pexels.com/photos/161519/abstract-barbecue-barbeque-bbq-161519.jpeg");
+	height: 500px;
+	width: 100%;
+	background-size: cover;
+}
+
+#menu.third-width{
+	padding-left:60px;
+	padding-right:60px;
+}
+
+#reviews.third-width{
+	padding-left:60px;
+	padding-right:120px;
+}
+
+footer{
+	position: relative;
+	text-align:center;
+}
+
+span{
+	font-family: 'Wendy One', sans-serif;
+	font-size:48px;
+	color:limegreen;
+}
+
+#content {
+	display:inline-block;
+}
